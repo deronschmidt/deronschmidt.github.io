@@ -1,0 +1,60 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sticky	{
+	position: sticky;
+    top: 30px;
+    margin-left: 40px;
+}
+
+.dls-sectionbreak{
+  background-color:rgb(5, 95, 95);
+}
+
+div {
+    margin-top: 15px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: grey;
+  }
+  .profilepic-round {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 100%;
+}
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 20%;
+}
+
+.middle {
+  width: 60%;
+  background-color: darkslategray;
+  color: aliceblue;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table .width {
+  width: 90em;
+}
